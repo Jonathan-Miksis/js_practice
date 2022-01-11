@@ -39,3 +39,17 @@ words.push("yay");
 words.push("woo");
 console.log(words);
 
+// # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
+
+var names = ["Jon", "Bob", "Jim"];
+var index = 0;
+while (index < names.length) {
+  console.log(names[index]);
+  index++;
+}
+
+// # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
+
+var numbers = [4, 6, 7, 2, 4];
+numbers[0] = numbers[0] * 10;
+console.log(numbers);
