@@ -53,3 +53,24 @@ while (index < names.length) {
 var numbers = [4, 6, 7, 2, 4];
 numbers[0] = numbers[0] * 10;
 console.log(numbers);
+
+
+// # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+function squaredNumber(number) {
+  return number * number;
+}
+console.log(squaredNumber(4));
+
+// # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
+
+function difference(number1, number2) {
+  return number1 - number2;
+}
+console.log(difference(10, 2));
+
+// # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
+function newTotal(number) {
+  return number * 10 + 30;
+}
+console.log(newTotal(5));
