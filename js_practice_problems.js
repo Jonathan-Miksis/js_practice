@@ -74,3 +74,33 @@ function newTotal(number) {
   return number * 10 + 30;
 }
 console.log(newTotal(5));
+
+
+// #  1. Start with an array of numbers and compute the sum of all the numbers.
+// #     For example, [5, 10, 8, 3] becomes 26.
+
+var sumNumbers = [5, 10, 8, 3];
+var total = 0;
+sumNumbers.forEach(function (number) {
+  total += number;
+});
+console.log(total);
+
+// 3. Start with an array of hashes and compute the sum of the prices (from the :price key).
+
+var items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }];
+var totalPrice = 0;
+items.forEach(function (item) {
+  totalPrice += item["price"];
+});
+console.log(totalPrice);
+
+// 4. Start with an array of numbers and compute the the minumum number.
+var numbersList = [5, 10, 8, 3];
+var minimumNumber = numbersList[0];
+numbersList.forEach(function (number) {
+  if (number < minimumNumber) {
+    minimumNumber = number;
+  }
+});
+console.log(minimumNumber);
