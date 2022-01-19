@@ -65,3 +65,15 @@ function productArry(arrynums) {
 }
 
 console.log(productArry([3, 4, 5, 6]));
+
+// Write a function that accepts an array of strings and returns the total length of all the strings.
+
+function strLength(strings) {
+  var total = 0;
+  strings.forEach(function (str) {
+    total += str.length;
+  });
+  return total;
+}
+
+console.log(strLength(["hi", "howdy", "hello"]));
