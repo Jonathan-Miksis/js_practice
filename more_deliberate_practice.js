@@ -52,6 +52,18 @@ function smallestNum(values) {
 
 console.log(smallestNum([7, 3, 0, -9, 15, 8]));
 
+// Write a function that accepts an array of strings and returns the total length of all the strings.
+
+function totalStringLength(words) {
+  var length = 0;
+  words.forEach(function (word) {
+    length += word.length;
+  });
+  return length;
+}
+
+console.log(totalStringLength(["volleyball", "basketball", "badminton"]));
+
 // nested loops practice
 
 // Write a function that accepts an array of numbers, and returns an array of the products of every pair of numbers from the array.
@@ -77,3 +89,10 @@ function strLength(strings) {
 }
 
 console.log(strLength(["hi", "howdy", "hello"]));
+
+// The following hash table represents a particular person: { firstName: "Ada", lastName: "Lovelace", email: "ada.lovelace@email.com" }
+// Write a function that accepts this type of hash table and returns the person's email address.
+
+function emailGen(hashInfo) {
+
+}
